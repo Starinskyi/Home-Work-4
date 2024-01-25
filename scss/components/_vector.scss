@@ -1,0 +1,17 @@
+.vector {
+  background-image: url(../img/background.png);
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 64px;
+
+  // background-image: url(../img/mobile-background.png);
+  // background-repeat: no-repeat;
+  // background-size: cover;
+  // background-position: center;
+
+  // @media screen and (min-width: $bp-tablet) {
+  //     background-image: url(../img/background.png);
+  //     background-position: top;
+  // }
+}

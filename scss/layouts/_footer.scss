@@ -1,0 +1,103 @@
+.footer {
+  position: relative;
+  background-color: var(--color-primery-dark);
+  background-image: url("../img/background-footer.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 32px 91px 66px;
+
+  @media screen and (min-width: $bp-tablet) {
+    height: 278px;
+    padding: 56px 0;
+  }
+
+  &::before {
+    display: none;
+
+    @media screen and (min-width: $bp-tablet) {
+      background-image: url("../img/pexels-photo.png");
+      position: absolute;
+      display: block;
+      content: "";
+      background-repeat: no-repeat;
+      height: 152px;
+      width: 247px;
+      right: 0;
+      bottom: 0;
+    }
+  }
+
+  &__conteiner {
+    display: block;
+    text-align: center;
+
+    @media screen and (min-width: $bp-tablet) {
+      display: flex;
+      text-align: start;
+      gap: 20px;
+    }
+  }
+
+  &__nav,
+  &__address {
+    display: block;
+
+    @media screen and (min-width: $bp-tablet) {
+      display: flex;
+      flex-basis: 50%;
+    }
+  }
+
+  &__address {
+    gap: 186px;
+  }
+
+  &__icon-menu {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+
+    @media screen and (min-width: $bp-tablet) {
+      justify-content: flex-start;
+    }
+  }
+
+  &__list {
+    display: none;
+
+    @media screen and (min-width: $bp-tablet) {
+      display: block;
+      flex-basis: 50%;
+      margin: 0;
+      padding: 0;
+    }
+  }
+
+  &__menu {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+
+    @media screen and (min-width: $bp-tablet) {
+      font-size: 16px;
+      flex-basis: 50%;
+    }
+  }
+
+  &__logo {
+    margin-bottom: 42px;
+
+    @media screen and (min-width: $bp-tablet) {
+      flex-basis: 50%;
+    }
+  }
+
+  &__address-info {
+    flex-basis: 50%;
+  }
+
+  &__address-copyright {
+    color: var(--color-primery-grey);
+    font-size: 13px;
+  }
+}

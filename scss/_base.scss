@@ -1,0 +1,39 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--color-primery-dark);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+address {
+  font-style: normal;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h1,
+h2,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", sans-serif;
+  margin-top: 0;
+
+  @media screen and (min-width: $bp-desktop) {
+    font-family: "Play", sans-serif;
+  }
+}
+
+a {
+  display: inline-block;
+}

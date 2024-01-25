@@ -1,0 +1,22 @@
+.input {
+  &__control {
+    display: block;
+    width: 100%;
+    padding: 18px 33px;
+    background-color: transparent;
+    border: 2px solid var(--color-primery-grey);
+    border-radius: 32px;
+    color: var(--color-primery-white);
+    font-size: 13px;
+
+    &:focus {
+      background-color: var(--color-primery-grey);
+      outline: none;
+    }
+
+    &::placeholder {
+      color: var(--color-primery-white);
+      font-size: 13px;
+    }
+  }
+}

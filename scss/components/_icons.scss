@@ -1,0 +1,43 @@
+.social {
+  display: none;
+
+  @media screen and (min-width: $bp-desktop) {
+    display: flex;
+    gap: 16px;
+  }
+
+  @media screen and (min-width: $bp-desktop) {
+    display: flex;
+    gap: 32px;
+  }
+
+  &__icon {
+    fill: var(--color-primery-dark);
+    transition: fill 0.2s;
+
+    &:hover {
+      fill: var(--color-primery-light);
+    }
+  }
+}
+
+.footer-icon {
+  fill: var(--color-primery-white);
+  transition: fill 0.2s;
+
+  &:hover {
+    fill: var(--color-primery-light);
+  }
+}
+
+.services-ellipse {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+  gap: 24px;
+  fill: var(--color-primery-grey);
+}
+
+.mobile-icon {
+  fill: var(--color-primery-dark);
+}

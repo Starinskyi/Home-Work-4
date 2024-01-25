@@ -1,0 +1,28 @@
+@import "./utils/variables";
+@import "./utils/fonts";
+@import "./base";
+@import "./utils/utils";
+
+@import "./components/accomplishments-card";
+@import "./components/buttons";
+@import "./components/carusel-button";
+@import "./components/icons";
+@import "./components/stars";
+@import "./components/links";
+@import "./components/services-card";
+@import "./components/input";
+@import "./components/pagination";
+@import "./components/vector";
+
+@import "./layouts/accomplishments-section";
+@import "./layouts/conteiner";
+@import "./layouts/search-section";
+@import "./layouts/footer";
+@import "./layouts/hero-section";
+@import "./layouts/header";
+@import "./layouts/clinick-section";
+@import "./layouts/modal";
+@import "./layouts/mobile-menu";
+@import "./layouts/section";
+@import "./layouts/services-section";
+@import "./layouts/terms";

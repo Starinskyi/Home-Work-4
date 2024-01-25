@@ -1,0 +1,59 @@
+.services-list {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  padding: 0;
+  margin: 0;
+
+  &__card {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    border-radius: 4px 120px;
+    min-height: 456px;
+  }
+
+  &__text {
+    font-size: 22px;
+    line-height: 1.2;
+    text-align: center;
+    width: 152px;
+    color: var(--color-primery-white);
+  }
+}
+
+.first-card {
+  background: linear-gradient(
+      180.05deg,
+      rgba(1, 28, 68, 0) 48.53%,
+      rgba(1, 28, 68, 0.725825) 84.61%,
+      #011c44 101.39%
+    ),
+    url(../img/image1580.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.second-card {
+  background: linear-gradient(
+      180.05deg,
+      rgba(1, 28, 68, 0) 48.53%,
+      rgba(1, 28, 68, 0.725825) 84.61%,
+      #011c44 101.39%
+    ),
+    url(../img/image1570.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.third-card {
+  background: linear-gradient(
+      180.05deg,
+      rgba(1, 28, 68, 0) 48.53%,
+      rgba(1, 28, 68, 0.725825) 84.61%,
+      #011c44 101.39%
+    ),
+    url(../img/image1574.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}

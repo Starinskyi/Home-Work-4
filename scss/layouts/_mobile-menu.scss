@@ -1,0 +1,57 @@
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-primery-white);
+  transform: translateX(100%);
+  transition: transform 0.3s;
+  z-index: 2;
+  overflow: hidden;
+
+  &__nav:active {
+    visibility: hidden;
+  }
+
+  @media screen and (min-width: $bp-desktop) {
+    display: none;
+  }
+
+  &.is-open {
+    transform: translate(0);
+  }
+
+  &__btn-close {
+    position: absolute;
+    height: 24px;
+    width: 24px;
+    top: 16px;
+    right: 20px;
+    background-image: url(../img/menu-to-close.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    background-color: transparent;
+  }
+
+  &__nav {
+    padding-top: 16px;
+    padding-left: 20px;
+  }
+
+  &__list {
+    padding: 0;
+    margin-top: 32px;
+    font-size: 14px;
+  }
+
+  &__icon {
+    display: flex;
+    gap: 16px;
+  }
+}
+
+.burger {
+  fill: var(--color-primary-light);
+}

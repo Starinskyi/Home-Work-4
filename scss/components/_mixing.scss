@@ -1,0 +1,7 @@
+@mixin star($color, $top, $right, $shrink, $position) {
+  fill: $color;
+  top: $top;
+  right: $right;
+  flex-shrink: $shrink;
+  position: $position;
+}
