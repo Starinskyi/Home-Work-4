@@ -32,8 +32,12 @@
   }
 
   &__list {
-    margin-bottom: 32px;
+    margin-bottom: 16px;
     padding: 0;
+
+    @media screen and (min-width: $bp-tablet) {
+      margin-bottom: 32px;
+    }
   }
 
   &__button {
