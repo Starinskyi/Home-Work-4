@@ -1,5 +1,12 @@
 .hero-section {
-  background: url(../img/mobile-hero-img.png);
+  background: linear-gradient(
+      89.38deg,
+      #ffffff 30.62%,
+      rgba(255, 255, 255, 0.850898) 41.31%,
+      rgba(255, 255, 255, 0.193204) 58.65%,
+      rgba(255, 255, 255, 0) 72.78%
+    ),
+    url(../img/image-mobile.png);
   background-repeat: no-repeat;
   background-position: top right;
   background-size: cover;
