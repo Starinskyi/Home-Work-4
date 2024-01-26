@@ -21,18 +21,20 @@
 
   &__content {
     margin-left: 0px;
-    padding-top: 16px;
+    margin-top: -70px;
     display: flex;
     flex-flow: column;
     align-items: center;
 
     @media screen and (min-width: $bp-tablet) {
       display: block;
+      margin-top: 16px;
     }
 
     @media screen and (min-width: $bp-desktop) {
       display: block;
       margin-left: 85px;
+      margin-top: 16px;
     }
   }
 
@@ -46,6 +48,7 @@
   }
 
   &__title {
+    letter-spacing: 2px;
     font-size: 54px;
     line-height: 46px;
     font-weight: 700;
@@ -69,6 +72,7 @@
     color: var(--color-secondary-grey);
     font-size: 12px;
     text-align: center;
+    margin-top: 8px;
   }
 
   &__text {

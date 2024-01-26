@@ -3,11 +3,11 @@
     display: flex;
     gap: 32px;
     position: relative;
-    margin-top: -48px;
   }
 
   &__content {
     max-width: 709px;
+    margin-top: -60px;
 
     @media screen and (min-width: $bp-desktop) {
       margin-top: 0;
