@@ -66,6 +66,7 @@
     margin-bottom: 32px;
 
     @media screen and (min-width: $bp-tablet) {
+      letter-spacing: 0;
       font-size: 140px;
       white-space: normal;
       line-height: 114px;

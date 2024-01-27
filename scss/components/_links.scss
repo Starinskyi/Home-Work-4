@@ -29,9 +29,13 @@
 .footer-link {
   color: var(--color-primery-white);
   padding-bottom: 16px;
-  font-size: 16px;
+  font-size: 14px;
   transition: color 0.2s;
   text-decoration: none;
+
+  @media screen and (min-width: $bp-tablet) {
+    font-size: 16px;
+  }
 
   &:hover {
     color: var(--color-primery-light);
@@ -74,7 +78,7 @@
   display: block;
   text-decoration: none;
   color: var(--color-primery-white);
-  font-size: 16px;
+  font-size: 14px;
   transition: color 0.2s;
   margin-bottom: 16px;
 

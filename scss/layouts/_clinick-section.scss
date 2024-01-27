@@ -42,8 +42,12 @@
     }
 
     span {
-      font-weight: 600;
+      font-weight: 700;
       text-transform: capitalize;
+
+      @media screen and (min-width: $bp-desktop) {
+        font-weight: 600;
+      }
     }
 
     &:last-child {
