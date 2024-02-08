@@ -9,11 +9,7 @@
   transition: transform 0.3s;
   z-index: 2;
   overflow: hidden;
-
-  &__nav:active {
-    visibility: hidden;
-  }
-
+  
   @media screen and (min-width: $bp-desktop) {
     display: none;
   }
