@@ -22,12 +22,12 @@
   width: 100%;
   max-width: 723px;
   height: 100%;
-  max-height: 681px;
   background-color: var(--color-primery-dark);
   background-image: url(../img/footer-m-background.png);
   border-radius: 48px;
   padding: 96px 24px;
   margin: 0 10px;
+  overflow-y: auto;
 
   @media screen and (min-width: $bp-tablet) {
     padding: 42px 144px;
