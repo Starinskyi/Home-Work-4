@@ -7,15 +7,9 @@ const mobileMenuLink3 = document.getElementById("mobile-link-3");
 const mobileMenuLink4 = document.getElementById("mobile-link-4");
 
 const toggleMenu = () => mobileMenu.classList.toggle("is-open");
-const disableScroll = () =>
-  document.body.classList.toggle("is-scroll-disabled");
 
 menuBtnOpen.addEventListener("click", toggleMenu);
 menuBtnClose.addEventListener("click", toggleMenu);
-
-menuBtnOpen.addEventListener("click", disableScroll);
-menuBtnClose.addEventListener("click", disableScroll);
-
 mobileMenuLink.addEventListener("click", toggleMenu);
 mobileMenuLink2.addEventListener("click", toggleMenu);
 mobileMenuLink3.addEventListener("click", toggleMenu);
